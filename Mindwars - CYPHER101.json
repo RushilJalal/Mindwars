@@ -977,7 +977,7 @@
         "alwaysLoaded": false,
         "file": "resources/background2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/background2.png\",\"extension\":\".png\"}",
         "name": "resources\\background2.png",
         "smoothed": true,
         "userAdded": true
@@ -1317,6 +1317,174 @@
         "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile015.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "resources/mindwars.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "resources\\mindwars.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/bricks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\bricks.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/idle/bg removed/idle_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\idle\\bg removed\\idle_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick run/run/run_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick run\\run\\run_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/idle mystick/idle mystick_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\idle mystick\\idle mystick_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Orange Trim_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Orange Trim_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/943cb5408cf51977a9dd0af416bea719d9ea4f22447b3fe075550d81219a17e0_Book Orange Trim_No Shadow.png",
+          "name": "Book Orange Trim_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Orange Trim_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Orange Trim_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/dd7033635684a55ac452b12622364c88632bcb9282127bd39e945e24d7e24848_Book Orange Trim_Shadow.png",
+          "name": "Book Orange Trim_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1346,7 +1514,12 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

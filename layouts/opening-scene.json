@@ -4447,6 +4447,32 @@
           "conditions": [
             {
               "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "NameInput",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Enter",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -4473,30 +4499,14 @@
               "parameters": [
                 "everything"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "TextInput::TextInputObject::Text"
+                "value": "Scene"
               },
               "parameters": [
-                "NameInput",
-                "!=",
-                "\"\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Enter",
+                "",
+                "\"Story  starts - banishment\"",
                 ""
               ]
             }

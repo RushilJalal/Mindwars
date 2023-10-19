@@ -26,74 +26,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore1",
-      "persistentUuid": "cbfa767c-f1db-43ab-a0d9-9ca69bafd52c",
-      "width": 0,
-      "x": 495,
-      "y": 103,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Transition",
-      "name": "Cover",
-      "persistentUuid": "aae30f40-9562-4d24-b95a-21f71bb3ce35",
-      "width": 0,
-      "x": 0,
-      "y": 0,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore2",
-      "persistentUuid": "9992f526-4773-458f-885f-34cf3ecd70b2",
-      "width": 0,
-      "x": 439,
-      "y": 186,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore3",
-      "persistentUuid": "e207785b-5cb9-4775-9afa-eb0a31b30291",
-      "width": 0,
-      "x": 418,
-      "y": 269,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore4",
-      "persistentUuid": "bb9dd7ed-e89c-4806-8d25-18cc81b8e8ef",
-      "width": 0,
-      "x": 780,
-      "y": 355,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "layer": "",
+      "name": "Mindwarslore",
+      "persistentUuid": "2b3a1ad8-239c-4e15-a2ec-271e9eb13628",
+      "width": 1280,
+      "x": 320,
+      "y": 180,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,14 +42,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore5",
-      "persistentUuid": "c06bf7d1-4596-4ca7-a95d-00e3ed4b83d0",
-      "width": 0,
-      "x": 596,
-      "y": 454,
+      "customSize": true,
+      "depth": 1,
+      "height": 294,
+      "layer": "",
+      "name": "Cover",
+      "persistentUuid": "2ab488f8-b2f8-4486-9a32-43fbcdaec7c9",
+      "width": 696,
+      "x": 1221,
+      "y": 793,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,45 +58,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore7",
-      "persistentUuid": "ae23d2c8-f2e5-43c5-b790-c7bb6b89dfb7",
-      "width": 0,
-      "x": 761,
-      "y": 530,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "White",
+      "name": "White",
+      "persistentUuid": "943d552e-1eb9-4afd-b5bc-879c37bab9ab",
+      "width": 2541,
+      "x": 0,
+      "y": 0,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore8",
-      "persistentUuid": "6c625322-fec0-4395-b608-f2f907106f23",
-      "width": 0,
-      "x": 583,
-      "y": 613,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "name": "lore9",
-      "persistentUuid": "50ed142c-d039-43da-bd84-595336abec4f",
-      "width": 0,
-      "x": 566,
-      "y": 717,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -371,11 +284,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "resources\\background2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -419,6 +333,33 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Mindwarslore",
+      "tags": "",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "resources\\mindwars.mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "White",
+      "tags": "",
+      "texture": "New image3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -428,182 +369,21 @@
       "actions": [
         {
           "type": {
-            "value": "MettreXY"
+            "value": "Wait"
           },
           "parameters": [
-            "lore1",
-            "=",
-            "SceneWindowWidth()/2-lore1.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
+            "1"
           ]
         },
         {
           "type": {
-            "value": "MettreXY"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "lore2",
-            "=",
-            "SceneWindowWidth()/2-lore2.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore3",
-            "=",
-            "SceneWindowWidth()/2-lore3.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore4",
-            "=",
-            "SceneWindowWidth()/2-lore4.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore5",
-            "=",
-            "SceneWindowWidth()/2-lore5.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore6",
-            "=",
-            "SceneWindowWidth()/2-lore6.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore7",
-            "=",
-            "SceneWindowWidth()/2-lore7.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore8",
-            "=",
-            "SceneWindowWidth()/2-lore8.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "lore9",
-            "=",
-            "SceneWindowWidth()/2-lore9.Width()/2",
-            "=",
-            "SceneWindowHeight()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore4"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore6"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore7"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore8"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "lore9"
+            "White",
+            "Opacity",
+            "-",
+            "2.5"
           ]
         }
       ]
@@ -614,40 +394,18 @@
       "actions": [
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"Transition_timer\""
+            "1"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "OpacityCapability::OpacityBehavior::Value"
+            "value": "Video::Play"
           },
           "parameters": [
-            "Cover",
-            "Opacity",
-            ">",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Cover",
-            "Opacity",
-            "-",
-            "1.5"
+            "Mindwarslore"
           ]
         }
       ]
@@ -707,41 +465,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "text",
+      "name": "White",
       "renderingType": "",
       "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Transition",
-      "renderingType": "",
-      "visibility": false,
       "cameras": [],
       "effects": [
         {

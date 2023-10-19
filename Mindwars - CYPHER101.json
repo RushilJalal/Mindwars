@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Opening scene",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -25,7 +25,7 @@
     "author": "CYPHER101",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Dell\\Documents\\web",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -1485,16 +1485,1373 @@
         "name": "New image3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannon Ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cannon Ball.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Cannon/Ball/dece2f17b4c1fa89e8a33af18542cab865c0af49c0b38137aa9bb1ef4fc5b509_Cannon Ball.png",
+          "name": "Cannon Ball.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawn[1]/spawn[1]_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawn[1]\\spawn[1]_0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0034.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0037.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0044.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/fall/fall_0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\fall\\fall_0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick idle/spawnbig[1]/spawnbig[1]_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/77717e5c1f84f3ba9a3dd6e314bc0bdc3233351c657e8f6df40b7f50e8911b2b_White Square Decorated Button_Hovered.png",
+          "name": "White Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
+          "name": "White Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
+          "name": "White Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6d8e529f898d0d1cfc8e94ba10ae0a01e0a31b08bc0d11ec35074a34f3485f55_Transparent Button With White Blue Border_Hovered.png",
+          "name": "Transparent Button With White Blue Border_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Transparent Button With White Blue Border_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Transparent Button With White Blue Border_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+          "name": "Transparent Button With White Blue Border_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Pressed.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Transparent Button With White Blue Border_Pressed.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Transparent Button With White Blue Border_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c18e2e342a2cce350f068208df2b7f5549dc600d2201609b1d3d76c497fffd30_Transparent Button With White Blue Border_Pressed.png",
+          "name": "Transparent Button With White Blue Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "Kenney Mini Square.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Hovered.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Transparent Button With White Blue Border_Hovered.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Triangle metal_Broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Triangle metal_Broken.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/b0cf39666a4c974e22be0a375aadd09530c023ef19a5ce848c8115dc2d888dac_Triangle metal_Broken.png",
+          "name": "Triangle metal_Broken.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Triangle metal_Damaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Triangle metal_Damaged.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/fdc3bc4861a0ffb2b7ee8a81f79638fb8151e9b4c3e661d336cee70d0b172557_Triangle metal_Damaged.png",
+          "name": "Triangle metal_Damaged.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Triangle metal_Perfect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Triangle metal_Perfect.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/ff139dd45d5cc30d22525f52abd6d3ca98eb23932ed7486e6416548c115ecc0c_Triangle metal_Perfect.png",
+          "name": "Triangle metal_Perfect.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right triangle metal_Broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right triangle metal_Broken.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/c7ab446ac71a352c64bd71714d370351907dc36b00d323ee84143bf6759978c9_Right triangle metal_Broken.png",
+          "name": "Right triangle metal_Broken.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right triangle metal_Damaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right triangle metal_Damaged.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/1ee3e1eb77e049e47de1ab660fd9fe644955665826e1b0a0da92e7dc44f6178b_Right triangle metal_Damaged.png",
+          "name": "Right triangle metal_Damaged.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right triangle metal_Perfect.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Right triangle metal_Perfect.png\",\"extension\":\".png\"}",
+        "name": "Right triangle metal_Perfect.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/4e6a8751d9431eec47bdb4374d517c34f30edd710363ea7542f308c210f932b4_Right triangle metal_Perfect.png",
+          "name": "Right triangle metal_Perfect.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right triangle metal_Perfect2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Right triangle metal_Perfect2.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "4e6a8751d9431eec47bdb4374d517c34f30edd710363ea7542f308c210f932b4_Right triangle metal_Perfect.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/4e6a8751d9431eec47bdb4374d517c34f30edd710363ea7542f308c210f932b4_Right triangle metal_Perfect.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right triangle metal_Perfect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Right triangle metal_Perfect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/c693a024a868728da3e9e91c9d23513306582bda6ba10191afc24d6c5667dd5e_Explosion1.png",
+          "name": "Explosion1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Heart.png\",\"extension\":\".png\"}",
+        "name": "Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/f87b52529051c475177efb8e1ae560870f9f183bc1945fbfa3a09c7a4a5feac8_Heart.png",
+          "name": "Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Heart",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Idle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Transparent Button With White Blue Border_Idle.png2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Time_holder",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time taken: ",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
       "folded": true,
       "name": "Username",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "Time taken",
       "type": "string",
       "value": ""
     }
@@ -1506,15 +2863,39 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/story--starts---banishment"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/lore-display"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/story--starts---banishment"
+      "referenceTo": "/layouts/levels"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1---passages"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1---questions"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/threedflip"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"

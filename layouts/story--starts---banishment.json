@@ -87,6 +87,52 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "White layer",
+      "name": "myplatform",
+      "persistentUuid": "b06c989e-9dca-413e-b4ae-655692ac6504",
+      "width": 0,
+      "x": -67,
+      "y": 666,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 749,
+      "layer": "",
+      "name": "black_boundary",
+      "persistentUuid": "afb3458a-e060-4a7d-905e-49bfd4de92f4",
+      "width": 212,
+      "x": -125,
+      "y": -9,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "interesting",
+      "persistentUuid": "5d19e255-da77-4a40-a0e3-abdd28706edb",
+      "width": 0,
+      "x": 692,
+      "y": 237,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -101,6 +147,29 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 0,
+          "layers": 1,
+          "masks": 1
+        },
         {
           "canBeGrabbed": true,
           "name": "Platform",
@@ -139,7 +208,7 @@
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
-          "gravityScale": 1,
+          "gravityScale": 0.7,
           "layers": 1,
           "masks": 1
         },
@@ -163,7 +232,7 @@
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
-          "gravity": 1000,
+          "gravity": 800,
           "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
@@ -562,6 +631,2910 @@
               ]
             }
           ]
+        },
+        {
+          "name": "fall0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.02857142857142857,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0020.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0021.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0023.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0024.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0025.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0026.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0027.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0028.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0037.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0038.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0039.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0040.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0041.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0042.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0043.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0044.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\fall\\fall_0045.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fall1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.03333333333333333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0020.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0021.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0023.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0024.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0025.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0026.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0027.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0028.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\spawnbig[1]\\spawnbig[1]_0033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -578,7 +3551,7 @@
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
+          "bodyType": "Static",
           "bullet": false,
           "fixedRotation": false,
           "canSleep": true,
@@ -690,27 +3663,71 @@
         "g": 255,
         "r": 255
       }
-    }
-  ],
-  "events": [
+    },
     {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "black_boundary",
+      "tags": "",
+      "texture": "New image4",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
         {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "White",
-            "Opacity",
-            "=",
-            "(-100/9)*(Player.Distance(BookOrangeTrim)-1000)"
-          ]
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
         }
       ]
     },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "interesting",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "A mysterious book appears....",
+      "font": "resources\\CourierPrime-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -721,6 +3738,38 @@
           },
           "parameters": [
             "White"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"fall0\""
           ]
         }
       ]
@@ -892,6 +3941,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
     }
   ]
 }

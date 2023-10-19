@@ -1,0 +1,4454 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.Gdevelop.Mindwars",
+    "pixelsRounding": false,
+    "projectUuid": "acafdfb4-3f40-4fda-a693-671cc2847f6e",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Mindwars final",
+    "description": "",
+    "author": "CYPHER101",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 1,
+      "logoAndProgressLogoFadeInDelay": 1,
+      "minDuration": 5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": false
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "St8RV0ZHauhoFwA0rKWiVbWy6Qi2"
+    ],
+    "authorUsernames": [
+      "lavitra_cypher101"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0034.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0038.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0041.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0043.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0044.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0045.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0046.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0048.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0049.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0050.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0051.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0052.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0053.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0054.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0055.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0056.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0057.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0058.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0059.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0060.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0061.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0062.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0063.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0064.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0064.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0065.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0065.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0066.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0066.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0067.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0067.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0068.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0069.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0069.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0070.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0071.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0072.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0073.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0074.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0075.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0076.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0077.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0078.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0079.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0080.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0081.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0082.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0083.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0084.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0085.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0086.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0087.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0088.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0089.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0090.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0091.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0092.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0093.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0094.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0095.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0095.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0096.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0097.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0098.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_0099.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0099.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00101.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00102.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00103.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00104.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00105.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00106.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00106.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00107.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00108.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00109.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00109.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00110.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00110.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00111.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00111.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00112.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00113.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00113.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00114.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00115.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00116.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00116.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00117.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00117.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00118.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00118.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00119.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00119.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00121.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00121.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00122.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00122.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00123.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00123.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00124.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00124.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00125.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00125.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00126.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00126.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00127.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00127.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00128.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00129.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00129.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00130.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00130.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00131.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00131.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00132.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00133.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00133.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00134.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00134.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00135.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00135.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00136.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00136.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00137.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00137.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00138.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00138.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00139.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00139.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00140.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00140.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00141.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00141.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00142.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00143.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00143.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00145.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00145.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00146.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00146.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00147.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00147.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00148.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00148.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00149.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00149.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00150.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00151.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00153.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00153.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00154.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00154.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00155.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00155.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00156.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00156.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00157.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00157.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00158.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00158.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00159.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00159.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00160.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00160.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00161.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00161.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00162.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00163.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00163.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00164.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00164.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00165.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00165.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00166.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00166.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00168.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00168.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00169.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00169.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00170.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00170.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00171.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00171.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00172.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00172.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00173.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00173.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00174.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00174.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00175.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00175.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00176.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00176.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00177.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00177.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00178.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00178.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00179.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00179.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00181.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00181.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00182.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00183.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00183.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00184.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00184.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00185.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00185.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00186.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00186.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00187.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00187.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00188.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00188.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00189.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00189.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00190.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00190.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running png_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running png_0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor white.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/819505e68b65b6bd5aec3d0812340740ee6c1f658edf7f211cd6b47d22a3e54d_floor white.png",
+          "name": "floor white.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Yellow background.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Yellow background.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Yellow background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Backgrounds/4e9a0d225a7bcc8c519ae0f41d764240b99d0495c68a58ab9e00547fe9320d6c_tiled_Yellow background.png",
+          "name": "tiled_Yellow background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f0fcdea023107dc7c4263d38d52d5f6f74a5b779887760a1580a613f7f4b2af0_tiled_Grass.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/f0fcdea023107dc7c4263d38d52d5f6f74a5b779887760a1580a613f7f4b2af0_tiled_Grass.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running new_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running new_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_00002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0034.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0037.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0038.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0043.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jump_0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0044.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bricks.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bricks.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "bricks.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "__stick-man_blank_walk_732px_by_733px-per-frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "__stick-man_blank_walk_732px_by_733px-per-frame.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "BebasNeue-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "BebasNeue-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "by_CYPHER101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "by_CYPHER101.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "CourierPrime-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CourierPrime-Bold.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "CourierPrime-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CourierPrime-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "by_CYPHER102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "by_CYPHER102.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Bordered Hud Grey_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Bordered Hud Grey_all_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/b6451298a85b275ad943340bd1394f488fa5e07a4fe1f69dd1ebc11220647437_9patch_Bordered Hud Grey_all_32.png",
+          "name": "9patch_Bordered Hud Grey_all_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00191.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00191.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00193.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00193.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00194.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00194.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00195.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00195.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00196.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00196.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00197.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00197.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00198.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00198.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00199.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00199.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00200.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00201.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00201.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00202.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00203.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00203.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00204.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00204.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00205.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00205.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00206.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00206.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00207.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00207.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00208.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00208.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00209.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00209.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00210.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00210.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00211.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00211.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00212.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00212.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00213.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00213.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00214.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00214.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00215.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00215.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00216.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00216.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00217.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00217.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00218.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00218.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00219.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00219.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00220.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00220.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00221.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00221.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00222.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00222.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00223.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00223.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00224.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00224.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00225.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00225.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00226.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00226.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00227.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00227.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00228.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00228.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00229.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00229.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00230.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00230.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00231.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00231.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00232.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00232.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00233.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00233.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00234.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00234.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00235.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00235.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00236.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00236.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00237.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00237.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00238.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00238.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00239.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00239.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00240.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00240.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00241.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00241.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00242.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00242.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00243.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00243.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00244.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00244.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00245.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00245.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00246.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00246.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00247.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00247.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00248.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00248.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00249.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00249.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00250.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00250.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00251.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00251.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00252.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00252.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00253.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00253.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00254.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00254.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00255.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00255.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00256.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00256.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00257.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00257.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00258.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00258.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00259.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00259.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00260.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00260.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00261.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00261.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00262.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00262.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00263.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00263.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00264.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00264.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00265.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00265.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00266.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00266.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00267.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00267.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00268.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00268.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00269.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00269.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00270.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00270.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00271.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00271.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00272.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00272.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00273.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00273.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00274.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00274.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00275.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00275.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00276.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00276.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00277.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00277.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00278.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00278.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00279.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00279.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_00280.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_00280.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "43-4x6-01.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "43-4x6-01.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/bricks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\bricks.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Username",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/opening-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

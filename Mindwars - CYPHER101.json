@@ -10,9 +10,9 @@
     "adaptGameResolutionAtRuntime": true,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
-    "folderProject": false,
+    "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.Gdevelop.Mindwars",
     "pixelsRounding": false,
     "projectUuid": "21539199-48c3-454c-bd65-f8d2ee83ac96",
     "scaleMode": "linear",
@@ -22,9 +22,9 @@
     "version": "1.0.0",
     "name": "Mindwars - CYPHER101",
     "description": "",
-    "author": "",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "author": "CYPHER101",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -33,9 +33,9 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "resources\\background2.png",
       "gdevelopLogoStyle": "light",
-      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressFadeInDuration": 2,
       "logoAndProgressLogoFadeInDelay": 0.2,
       "minDuration": 1.5,
       "progressBarColor": 16777215,
@@ -44,11 +44,11 @@
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
-      "showProgressBar": true
+      "showProgressBar": false
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -63,95 +63,1286 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0034.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0043.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0046.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0048.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0049.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0051.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0053.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0054.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0055.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0056.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0057.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0058.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0059.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0060.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0061.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0063.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0064.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0064.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0065.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0065.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0066.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0066.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0067.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0067.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0068.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0069.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0069.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0070.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0071.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0072.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0073.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0074.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0075.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0076.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0077.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0078.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0079.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0081.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0082.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0083.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0084.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0085.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0086.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0087.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0088.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0089.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0090.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0091.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0092.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0093.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0094.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0095.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0095.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0096.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0097.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0098.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/idle my stick bg removed/idle_0099.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\idle my stick bg removed\\idle_0099.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\background2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "resources/BebasNeue-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "resources\\BebasNeue-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/by_CYPHER102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\by_CYPHER102.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "resources/CourierPrime-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "resources\\CourierPrime-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "resources/CourierPrime-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "resources\\CourierPrime-Bold.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../game/assets/New image2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\game\\assets\\New image2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New image2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New image2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Documents/m#/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Documents\\m#\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile010.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile010.png\",\"extension\":\".png\"}",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile011.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile011.png\",\"extension\":\".png\"}",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile012.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile012.png\",\"extension\":\".png\"}",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile013.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile013.png\",\"extension\":\".png\"}",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile014.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile014.png\",\"extension\":\".png\"}",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile015.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/New character/idle/ezgif-4-0957e2c888-png-732x733-sprite-png/tile015.png\",\"extension\":\".png\"}",
+        "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile015.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Username",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "layouts": [
     {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.546875,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 8042920,
-          "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/opening-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lore-display"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/story--starts---banishment"
     }
   ],
   "externalEvents": [],

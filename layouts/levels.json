@@ -2242,10 +2242,11 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "Scene"
           },
           "parameters": [
-            "Border",
+            "",
+            "\"Level 1 - learn\"",
             ""
           ]
         }

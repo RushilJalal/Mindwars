@@ -18,14 +18,1753 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.30887412163426536,
     "windowMask": false
   },
-  "objectsGroups": [],
-  "variables": [],
-  "instances": [],
-  "objects": [],
-  "events": [],
+  "objectsGroups": [
+    {
+      "name": "Learning_mat",
+      "objects": [
+        {
+          "name": "Pytha_theo"
+        },
+        {
+          "name": "pytha_img"
+        },
+        {
+          "name": "Trigo_ratio"
+        },
+        {
+          "name": "trigo_img"
+        },
+        {
+          "name": "law_sines"
+        },
+        {
+          "name": "sines_img"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "fire",
+      "type": "boolean",
+      "value": false
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 306,
+      "layer": "",
+      "name": "Pytha_theo",
+      "persistentUuid": "b419241d-ec73-46af-8162-b33aec2ea4e0",
+      "width": 994,
+      "x": 2180,
+      "y": 40,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "layer": "",
+      "name": "pytha_img",
+      "persistentUuid": "ca2e91ce-681f-4d94-8c4d-9c54a79192c9",
+      "width": 369,
+      "x": 3248,
+      "y": 92,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 164,
+      "layer": "",
+      "name": "Trigo_ratio",
+      "persistentUuid": "c12768ad-bffa-47e0-b0eb-8fdd1902a191",
+      "width": 968,
+      "x": 2182,
+      "y": 374,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 285,
+      "layer": "",
+      "name": "trigo_img",
+      "persistentUuid": "515041e7-4df9-4301-8288-70d5fddc6fc5",
+      "width": 535,
+      "x": 3185,
+      "y": 387,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 123,
+      "layer": "",
+      "name": "law_sines",
+      "persistentUuid": "a9d06c42-f77d-4ed6-ab8e-960e645250c0",
+      "width": 954,
+      "x": 2182,
+      "y": 722,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 124,
+      "layer": "",
+      "name": "sines_img",
+      "persistentUuid": "269324a7-afb3-47e3-ad9f-f6c059a49adb",
+      "width": 492,
+      "x": 3184,
+      "y": 821,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "65a0bc02-074d-4bf5-9118-e33b233396f1",
+      "width": 4211,
+      "x": -208,
+      "y": 979,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 331,
+      "layer": "",
+      "name": "mystick",
+      "persistentUuid": "aff9d67e-246f-4e0a-bfb2-7eb7fa0d0b9c",
+      "width": 308,
+      "x": 516,
+      "y": 279,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1017,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "352688b7-5a53-47e1-891d-d2517dfd4b98",
+      "width": 161,
+      "x": -89,
+      "y": -37,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "Cover1",
+      "persistentUuid": "948f5cd7-b773-4a9c-98bc-a97a028e99a4",
+      "width": 1593,
+      "x": 2127,
+      "y": 8,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 340,
+      "layer": "",
+      "name": "Cover2",
+      "persistentUuid": "ae86578c-8716-4ec3-9627-674a5d0e04da",
+      "width": 1593,
+      "x": 2127,
+      "y": 318,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 331,
+      "layer": "",
+      "name": "Cover3",
+      "persistentUuid": "122f3089-adad-49a9-bc17-175435af74ae",
+      "width": 1593,
+      "x": 2127,
+      "y": 648,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "go_text",
+      "persistentUuid": "00228b56-bb68-4463-a41a-010c05e239ad",
+      "width": 0,
+      "x": 215,
+      "y": 168,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "platform",
+      "tags": "",
+      "texture": "resources\\bricks.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Cover1",
+      "tags": "",
+      "texture": "resources\\bricks.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Cover2",
+      "tags": "",
+      "texture": "resources\\bricks.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Cover3",
+      "tags": "",
+      "texture": "resources\\bricks.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Pytha_theo",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pythagorean theorem\n\nThe Pythagorean theorem is a^2+b^2=c^2, where \"a\" and \"b\" are lengths of the legs of a right triangle and \"c\" is the length of the hypotenuse. ",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "pytha_img",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\pytha.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 424,
+                        "y": 0
+                      },
+                      {
+                        "x": 424,
+                        "y": 244
+                      },
+                      {
+                        "x": 0,
+                        "y": 244
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Trigo_ratio",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Trigonometric Ratios\n\nThe ratios of the sides of a right triangle are called trigonometric ratios. Three common trigonometric ratios are the sine (sin), cosine (cos), and tangent (tan).\n",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "trigo_img",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\trigo_ratio_img.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 528,
+                        "y": 0
+                      },
+                      {
+                        "x": 528,
+                        "y": 268
+                      },
+                      {
+                        "x": 0,
+                        "y": 268
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "law_sines",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Law of sines\n\nThe law of sines states that in any triangle, the ratio of the sine of an angle to the opposite side length is equal for all three angles and sides.",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sines_img",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\sines_img.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 345,
+                        "y": 0
+                      },
+                      {
+                        "x": 345,
+                        "y": 82
+                      },
+                      {
+                        "x": 0,
+                        "y": 82
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mystick",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 1,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": false,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 500,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick idle\\idle mystick\\idle mystick_0000.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0000.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0001.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0002.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0003.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0004.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0005.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0006.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0007.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick run\\run\\run_0008.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bazooka",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0000.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0001.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0002.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0003.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0004.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0005.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0006.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0007.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0008.png",
+                  "points": [
+                    {
+                      "name": "PointFire",
+                      "x": 215.5,
+                      "y": 176.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 36
+                      },
+                      {
+                        "x": 306,
+                        "y": 504
+                      },
+                      {
+                        "x": 147,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "go_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "Continue forward to unveil the mysteries of this realm",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ad46952db70443f4c753ee5ff0b08fdf3babf9481e96a65032b046e98bd2f1ed",
+      "name": "Missile",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Missile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 8
+                      },
+                      {
+                        "x": 2,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "0.7",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "mystick.X()+800",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "mystick",
+            ">=",
+            "1350"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Cover1",
+            "Opacity",
+            "-",
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Cover2",
+            "Opacity",
+            "-",
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Cover3",
+            "Opacity",
+            "-",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::Value"
+          },
+          "parameters": [
+            "Cover3",
+            "Opacity",
+            "<=",
+            "50"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Cover1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Cover2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Cover3",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -71,5 +1810,50 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
+    }
+  ]
 }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22916801610748821,
+    "zoomFactor": 0.2705012603962557,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -183,22 +183,6 @@
       "x": 5115,
       "y": 593,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 863,
-      "layer": "",
-      "name": "Border",
-      "persistentUuid": "e3d129a5-b62b-43b8-9643-90184af8924f",
-      "width": 1306,
-      "x": 4094,
-      "y": -370,
-      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1740,7 +1724,12 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "ObjectStack",
+          "type": "ObjectStack::ObjectStack"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -1974,7 +1963,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "\"You have no idea what lies ahead\nYou are not prepared\nYou must train for it\nRead this...\"\nPress ENTER to continue",
+      "string": "\"You have no idea what lies ahead\nYou must train for it\nYou must LEARN\nRead this...\"\nPress ENTER to continue",
       "font": "resources\\CourierPrime-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 50,
@@ -2352,6 +2341,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "ObjectStack",
+      "type": "ObjectStack::ObjectStack"
     },
     {
       "name": "Opacity",

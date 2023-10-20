@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321_32_45_32questions",
-  "name": "Level 1 - questions",
+  "mangledName": "Level_321_32_45_32question2",
+  "name": "Level 1 - question2",
   "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -1371,209 +1371,12 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [],
-      "events": [
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Q1",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Question_holder",
-                    "=",
-                    "\"What is the value of (sin x)^2 + (cos x)^2 ?\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
-                  },
-                  "parameters": [
-                    "Option_a",
-                    "\"1\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
-                  },
-                  "parameters": [
-                    "Option_b",
-                    "\"-1\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
-                  },
-                  "parameters": [
-                    "Option_c",
-                    "\"0\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
-                  },
-                  "parameters": [
-                    "Option_d",
-                    "\"0.5\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-                  },
-                  "parameters": [
-                    "Option_a",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-                      },
-                      "parameters": [
-                        "Option_b",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-                      },
-                      "parameters": [
-                        "Option_c",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-                      },
-                      "parameters": [
-                        "Option_d",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "white_cover_lost",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1.5"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "colorB": 228,
@@ -1586,18 +1389,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -1656,16 +1448,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
                   },
                   "parameters": [
@@ -1698,16 +1480,6 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "qno",
-                    "=",
-                    "2"
-                  ]
-                },
                 {
                   "type": {
                     "value": "BuiltinCommonInstructions::Or"
@@ -2038,7 +1810,7 @@
       "isLocked": false,
       "name": "winning",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -2070,7 +1842,7 @@
       "isLocked": false,
       "name": "lost",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

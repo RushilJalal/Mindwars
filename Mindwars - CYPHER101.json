@@ -2874,6 +2874,136 @@
         "metadata": "",
         "name": "resources\\audio.mp4",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pytha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pytha.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/trigo_ratio_img.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\trigo_ratio_img.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/sines_img.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\sines_img.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bazooka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bazooka.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/BAZZOKA[1]/BAZZOKA[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\BAZZOKA[1]\\BAZZOKA[1]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Missile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Missile.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 2/Comrade Cheese Puff/feeb5237642bae469494e9b4f54f3e41a4a12d9e608b585b72f4c9d0cc451cf9_Missile.png",
+          "name": "Missile.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2950,6 +3080,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectstack"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/threedflip"

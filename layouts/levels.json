@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2705012603962557,
+    "zoomFactor": 0.3300560049165934,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -56,8 +56,8 @@
       "name": "mystick",
       "persistentUuid": "a0ddec72-bb89-44c5-9dae-2372e5b78ebf",
       "width": 308,
-      "x": 3721,
-      "y": 95,
+      "x": 91,
+      "y": 190,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -72,7 +72,7 @@
       "persistentUuid": "ca0d9cf6-a476-4eae-814a-b7ffec81a630",
       "width": 0,
       "x": 813,
-      "y": 126,
+      "y": 207,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,24 +102,9 @@
       "name": "advance_text",
       "persistentUuid": "ee6c2552-1a36-4f1b-8be5-3ef7743ec5d9",
       "width": 0,
-      "x": 1750,
-      "y": 300,
+      "x": 34,
+      "y": 264,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Gain_text",
-      "persistentUuid": "d7d2a1d0-de4a-49eb-95dd-2c62359e6403",
-      "width": 0,
-      "x": 1800,
-      "y": 126,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -133,7 +118,7 @@
       "persistentUuid": "52957ddb-4f3e-4431-9383-fbd795be38dc",
       "width": 0,
       "x": 700,
-      "y": 200,
+      "y": 56,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -183,6 +168,22 @@
       "x": 5115,
       "y": 593,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1205,
+      "layer": "Cover",
+      "name": "White",
+      "persistentUuid": "25146749-3323-4fca-93b9-8ac155268bda",
+      "width": 2046,
+      "x": -62,
+      "y": -62,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1606,9 +1607,9 @@
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 35,
+        "g": 166,
+        "r": 245
       }
     },
     {
@@ -1642,8 +1643,16 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "Advance forward to begin your ultimate journey into the Eduverse!",
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "Advance forward to begin your ultimate journey into the EDUVERSE!",
       "font": "resources\\CourierPrime-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 50,
@@ -1665,7 +1674,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Gain new knowledge or put yourself to the ultimate test!\nThe answers to questions decide your destiny here!\nAre you ready for it?",
+      "string": "Gain knowledge and put yourself to the ultimate test of destiny!\nAre you ready for it?",
       "font": "resources\\CourierPrime-Bold.ttf",
       "textAlignment": "center",
       "characterSize": 50,
@@ -2033,6 +2042,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "White",
+      "tags": "",
+      "texture": "New image8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -2062,7 +2083,7 @@
           "parameters": [
             "Welcome_text",
             "=",
-            "\"Welcome \" + Username + \" to\""
+            "\"Welcome \" + Username"
           ]
         },
         {
@@ -2078,7 +2099,7 @@
         },
         {
           "type": {
-            "value": "SetCenterX"
+            "value": "MettreX"
           },
           "parameters": [
             "Welcome_text",
@@ -2088,7 +2109,7 @@
         },
         {
           "type": {
-            "value": "SetCenterX"
+            "value": "MettreX"
           },
           "parameters": [
             "MINDWARS",
@@ -2121,6 +2142,14 @@
             "Text_AutoTyping",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
         }
       ]
     },
@@ -2130,12 +2159,34 @@
       "actions": [
         {
           "type": {
-            "value": "CentreCamera"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "White",
+            "Opacity",
+            "-",
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
           },
           "parameters": [
             "",
-            "mystick",
+            "=",
+            "mystick.X()+800",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "0.8",
             "",
             ""
           ]
@@ -2307,9 +2358,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "study",
+      "name": "Cover",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

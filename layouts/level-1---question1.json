@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26167741169921493,
+    "zoomFactor": 0.4598521426736334,
     "windowMask": false
   },
   "objectsGroups": [
@@ -362,8 +362,8 @@
       "name": "LOST",
       "persistentUuid": "03aeb94b-f202-42db-a2a4-d09d302b7f3d",
       "width": 0,
-      "x": 758,
-      "y": 433,
+      "x": 746,
+      "y": 335,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -378,8 +378,8 @@
       "name": "Main_menu",
       "persistentUuid": "70e69b4e-8d2c-4497-86a1-f38458a5a7cd",
       "width": 446,
-      "x": 751,
-      "y": 614,
+      "x": 745,
+      "y": 507,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -1268,6 +1268,42 @@
           "parameters": [
             "Main_menu"
           ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"winning\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"lost\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "white_cover",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "white_cover_lost",
+            "False"
+          ]
         }
       ]
     },
@@ -1537,6 +1573,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"lost\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
@@ -1570,7 +1615,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "1.5"
+            "5"
           ]
         }
       ],
@@ -1606,7 +1651,7 @@
                   "parameters": [
                     "Question_holder",
                     "=",
-                    "\"2+2= ?\""
+                    "\"What is the value of cos(180°) + sin(270°) ?\""
                   ]
                 },
                 {
@@ -1615,7 +1660,7 @@
                   },
                   "parameters": [
                     "Option_a",
-                    "\"3\"",
+                    "\"0\"",
                     ""
                   ]
                 },
@@ -1635,7 +1680,7 @@
                   },
                   "parameters": [
                     "Option_c",
-                    "\"4\"",
+                    "\"-2\"",
                     ""
                   ]
                 },
@@ -1645,7 +1690,7 @@
                   },
                   "parameters": [
                     "Option_d",
-                    "\"5\"",
+                    "\"1\"",
                     ""
                   ]
                 }
@@ -1686,11 +1731,30 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "qno",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PauseTimer"
                   },
                   "parameters": [
                     "",
                     "\"New scene timer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"winning\""
                   ]
                 }
               ]
@@ -1762,6 +1826,15 @@
                     "qno",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"lost\""
                   ]
                 }
               ]
@@ -1963,7 +2036,7 @@
               },
               "parameters": [
                 "",
-                "\"Levels\"",
+                "\"Welcome\"",
                 ""
               ]
             }
@@ -2038,7 +2111,7 @@
       "isLocked": false,
       "name": "winning",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -2070,7 +2143,7 @@
       "isLocked": false,
       "name": "lost",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

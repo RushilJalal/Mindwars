@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827590617,
+    "zoomFactor": 0.40575189059438277,
     "windowMask": false
   },
   "objectsGroups": [
@@ -92,37 +92,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "mystick",
-      "persistentUuid": "6409d0d3-3fac-4b53-8935-b004937b92fa",
-      "width": 0,
-      "x": 260,
-      "y": 76,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 250,
-      "layer": "",
-      "name": "Stick",
-      "persistentUuid": "710d8e01-909f-4fc2-bcae-51913fb09b43",
-      "width": 250,
-      "x": 1176,
-      "y": 103,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "by_Cypher101",
       "persistentUuid": "15c7a8e0-e86b-40d9-9443-559e77952de1",
       "width": 0,
@@ -141,7 +110,7 @@
       "name": "Commander_textholder",
       "persistentUuid": "b4a2c707-4ec7-4654-b868-57955d25d53b",
       "width": 0,
-      "x": 536,
+      "x": 552,
       "y": 617,
       "zOrder": 8,
       "numberProperties": [],
@@ -157,7 +126,7 @@
       "name": "NameInput",
       "persistentUuid": "e2244111-f782-479e-a3fc-e86a18dd6b2e",
       "width": 616,
-      "x": 639,
+      "x": 652,
       "y": 734,
       "zOrder": 9,
       "numberProperties": [],
@@ -173,7 +142,7 @@
       "name": "NewPanelSprite_border",
       "persistentUuid": "38e790e0-d6c2-4819-a5d6-27d680d4ba36",
       "width": 650,
-      "x": 628,
+      "x": 635,
       "y": 722,
       "zOrder": 10,
       "numberProperties": [],
@@ -188,9 +157,40 @@
       "name": "Enter",
       "persistentUuid": "ffe14932-8fb1-45f2-a91b-a6097162bcc9",
       "width": 0,
-      "x": 664,
+      "x": 684,
       "y": 906,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "mystick",
+      "persistentUuid": "a4f22d8f-093a-4cd1-b762-1b94443304eb",
+      "width": 0,
+      "x": 285,
+      "y": 71,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 236,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "e8e13390-ece4-4701-943e-5f8123c6fad3",
+      "width": 217,
+      "x": 1168,
+      "y": 113,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4307,6 +4307,898 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Firing",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.02,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0020.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 31
+                      },
+                      {
+                        "x": 406,
+                        "y": 496
+                      },
+                      {
+                        "x": 33,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "resources\\new stick\\new stick_0000",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\new stick\\new stick_0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 184,
+                        "y": 91
+                      },
+                      {
+                        "x": 294,
+                        "y": 91
+                      },
+                      {
+                        "x": 294,
+                        "y": 313
+                      },
+                      {
+                        "x": 184,
+                        "y": 313
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4324,6 +5216,14 @@
             "-",
             "1.5"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Enter"
+          ]
         }
       ]
     },
@@ -4337,17 +5237,10 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Enter"
-              ]
-            },
             {
               "type": {
                 "value": "MettreX"
@@ -4556,7 +5449,7 @@
       "isLocked": false,
       "name": "Transition",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

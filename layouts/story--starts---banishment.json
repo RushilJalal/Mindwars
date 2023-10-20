@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.3645833333333334,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,8 +65,8 @@
       "name": "BookOrangeTrim",
       "persistentUuid": "3ce16894-d984-4444-9822-987c84d10a86",
       "width": 160,
-      "x": 1221,
-      "y": 579,
+      "x": 967,
+      "y": 293,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,21 +90,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "White layer",
-      "name": "myplatform",
-      "persistentUuid": "b06c989e-9dca-413e-b4ae-655692ac6504",
-      "width": 0,
-      "x": -67,
-      "y": 666,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 749,
@@ -113,7 +98,7 @@
       "persistentUuid": "afb3458a-e060-4a7d-905e-49bfd4de92f4",
       "width": 212,
       "x": -125,
-      "y": -9,
+      "y": -13,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -3551,7 +3536,7 @@
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
+          "bodyType": "Dynamic",
           "bullet": false,
           "fixedRotation": false,
           "canSleep": true,
@@ -3563,11 +3548,11 @@
           "polygonOrigin": "Center",
           "vertices": [],
           "density": 1,
-          "friction": 0.3,
+          "friction": 1000,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
-          "gravityScale": 0,
+          "gravityScale": 0.05,
           "layers": 1,
           "masks": 1
         },
@@ -3721,9 +3706,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 27,
+        "g": 2,
+        "r": 208
       }
     }
   ],
@@ -3876,7 +3861,7 @@
       "isLocked": false,
       "name": "White layer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

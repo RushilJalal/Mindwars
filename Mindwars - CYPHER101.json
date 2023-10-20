@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "21539199-48c3-454c-bd65-f8d2ee83ac96",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -25,7 +25,7 @@
     "author": "CYPHER101",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Dell\\Documents\\web",
+    "latestCompilationDirectory": "C:\\Users\\Dell\\Documents\\web2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2854,7 +2854,7 @@
         "alwaysLoaded": false,
         "file": "resources/new stick/new stick_0000.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/new stick/new stick_0000.png\",\"extension\":\".png\"}",
         "name": "resources\\new stick\\new stick_0000.png",
         "smoothed": true,
         "userAdded": true
@@ -3018,6 +3018,1184 @@
         "metadata": "",
         "name": "resources\\learn_vid2.mp4",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"resources/mystick ak47/ak 47[1]/ak 47[1]_0000.png\",\"extension\":\".png\"}",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/mystick ak47/ak 47[1]/ak 47[1]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\mystick ak47\\ak 47[1]\\ak 47[1]_0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bazooka2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bazooka2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "resources/learn_video2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "resources\\learn_video2.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI Heart_Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UI Heart_Empty.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/UI/6885a4db07047281d87e69a075bbb4183b01444fab2a8476d3167b0573e6a9f0_UI Heart_Empty.png",
+          "name": "UI Heart_Empty.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI Heart_Full.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UI Heart_Full.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/UI/cf347db5d9886d794890e9e2bdc3d91532db864a4665d35e93817a5e7d926ebe_UI Heart_Full.png",
+          "name": "UI Heart_Full.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI Heart_Half.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UI Heart_Half.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/UI/c4515f3c860d87b55a535f295a616026028d90fe6d6115305a750350d81df652_UI Heart_Half.png",
+          "name": "UI Heart_Half.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/UI/d70cc11f0586950a66afb50569f6219b34cc662b5cc1eef6e2067d50ca79f5e1_tiled_Tiled Filler UI Heart.png",
+          "name": "tiled_Tiled Filler UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[1]/pistol[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[1]\\pistol[1]_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol[2]/pistol[2]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol[2]\\pistol[2]_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/resources_New image2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "resources\\New image2.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Agent Mike/5cb7c240d55e97c18f6f1da41d1c379049db6799daacaf3cf06ff99b1909feaf_Bullet.png",
+          "name": "Bullet.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dead/dead_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dead\\dead_0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Heart Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf_Flat Heart Empty.png",
+          "name": "Flat Heart Empty.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Heart Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
+          "name": "Flat Heart Filled.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Heart Filled.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/tornado kick[1]/tornado kick[1]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\tornado kick[1]\\tornado kick[1]_0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/hurt[1]/hurt[1]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\hurt[1]\\hurt[1]_0020.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3077,7 +4255,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/levels"
+      "referenceTo": "/layouts/welcome"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3085,15 +4267,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1---questions"
+      "referenceTo": "/layouts/level-1---question1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1---learn"
+      "referenceTo": "/layouts/level-1---questions"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30887412163426536,
+    "zoomFactor": 0.31928945896901667,
     "windowMask": false
   },
   "objectsGroups": [
@@ -159,7 +159,7 @@
       "layer": "",
       "name": "platform",
       "persistentUuid": "65a0bc02-074d-4bf5-9118-e33b233396f1",
-      "width": 6063,
+      "width": 6679,
       "x": -208,
       "y": 979,
       "zOrder": 9,
@@ -271,9 +271,25 @@
       "name": "Book",
       "persistentUuid": "c526256a-91ec-417f-9a5b-f4bc571b76e8",
       "width": 178,
-      "x": 4276,
+      "x": 6245,
       "y": 797,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1182,
+      "layer": "",
+      "name": "NewVideo",
+      "persistentUuid": "1d5b69f3-e258-4b35-a215-004c0e347316",
+      "width": 720,
+      "x": 4219,
+      "y": -148,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1732,6 +1748,21 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewVideo",
+      "tags": "",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 0,
+        "videoResource": "resources\\learn_vid2.mp4"
+      }
     }
   ],
   "events": [
@@ -1747,7 +1778,19 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewVideo",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1801,7 +1844,7 @@
             "Cover1",
             "Opacity",
             "-",
-            "1.5"
+            "2.5"
           ]
         },
         {
@@ -1820,7 +1863,7 @@
             "Cover2",
             "Opacity",
             "-",
-            "1.5"
+            "2.5"
           ]
         },
         {
@@ -1839,7 +1882,7 @@
             "Cover3",
             "Opacity",
             "-",
-            "1.5"
+            "2.5"
           ]
         }
       ]
@@ -1888,6 +1931,64 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "mystick",
+            ">=",
+            "3970"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewVideo",
+            "Opacity",
+            "+",
+            "2.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "NewVideo"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Mute"
+          },
+          "parameters": [
+            "NewVideo",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

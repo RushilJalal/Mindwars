@@ -3004,6 +3004,20 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 2/Comrade Cheese Puff/feeb5237642bae469494e9b4f54f3e41a4a12d9e608b585b72f4c9d0cc451cf9_Missile.png",
           "name": "Missile.png"
         }
+      },
+      {
+        "file": "resources/learn_vid.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "resources\\learn_vid.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "resources/learn_vid2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "resources\\learn_vid2.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

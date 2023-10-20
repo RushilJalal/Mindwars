@@ -2876,6 +2876,12 @@
       "name": "white_cover",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "white_cover_lost",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -2902,6 +2908,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1---questions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1---learn"
     }
   ],
   "externalEvents": [],

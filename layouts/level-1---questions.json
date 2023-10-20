@@ -30,10 +30,21 @@
       "name": "WInning",
       "objects": [
         {
-          "name": "whitecover"
+          "name": "whitecover_win"
         },
         {
           "name": "WIN"
+        }
+      ]
+    },
+    {
+      "name": "losing",
+      "objects": [
+        {
+          "name": "whitecover_lost"
+        },
+        {
+          "name": "LOST"
         }
       ]
     }
@@ -261,7 +272,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "cover",
+      "layer": "winning",
       "name": "WIN",
       "persistentUuid": "be38e984-0cdc-4bfb-9379-b8828e8564d4",
       "width": 0,
@@ -277,8 +288,8 @@
       "customSize": true,
       "depth": 1,
       "height": 1019,
-      "layer": "cover",
-      "name": "whitecover",
+      "layer": "winning",
+      "name": "whitecover_win",
       "persistentUuid": "a364bca6-4379-45bc-8755-da886968ec1b",
       "width": 2393,
       "x": -224,
@@ -293,7 +304,7 @@
       "customSize": true,
       "depth": 32,
       "height": 64,
-      "layer": "cover",
+      "layer": "winning",
       "name": "Sendscore_button",
       "persistentUuid": "67d3a33f-00f0-4b4c-b1de-1b34a31284ea",
       "width": 907,
@@ -309,13 +320,60 @@
       "customSize": true,
       "depth": 32,
       "height": 64,
-      "layer": "cover",
+      "layer": "winning",
       "name": "View_lb_button",
       "persistentUuid": "d8096dc3-5c79-485c-8a6b-c960f30c3a5a",
       "width": 920,
       "x": 469,
       "y": 759,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1145,
+      "layer": "lost",
+      "name": "whitecover_lost",
+      "persistentUuid": "285e5203-b12d-4b45-8e4e-f42b4af25bf9",
+      "width": 1989,
+      "x": -40,
+      "y": -29,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "lost",
+      "name": "LOST",
+      "persistentUuid": "03aeb94b-f202-42db-a2a4-d09d302b7f3d",
+      "width": 0,
+      "x": 758,
+      "y": 433,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 64,
+      "layer": "lost",
+      "name": "Main_menu",
+      "persistentUuid": "70e69b4e-8d2c-4497-86a1-f38458a5a7cd",
+      "width": 446,
+      "x": 751,
+      "y": 614,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -349,7 +407,19 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "whitecover",
+      "name": "whitecover_win",
+      "tags": "",
+      "texture": "New image7",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "whitecover_lost",
       "tags": "",
       "texture": "New image7",
       "type": "TiledSpriteObject::TiledSprite",
@@ -899,6 +969,28 @@
       }
     },
     {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LOST",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "YOU LOST!",
+      "font": "resources\\BebasNeue-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 140,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      }
+    },
+    {
       "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
       "name": "Sendscore_button",
       "tags": "",
@@ -1025,6 +1117,70 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
+      "name": "Main_menu",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "MAIN MENU",
+          "font": "resources\\CourierPrime-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
     }
   ],
   "events": [
@@ -1062,10 +1218,11 @@
         },
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "Score",
+            "WInning",
+            "Opacity",
             "=",
             "0"
           ]
@@ -1075,7 +1232,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "WInning",
+            "losing",
             "Opacity",
             "=",
             "0"
@@ -1095,6 +1252,14 @@
           },
           "parameters": [
             "Sendscore_button"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Main_menu"
           ]
         }
       ]
@@ -1119,6 +1284,33 @@
           },
           "parameters": [
             "WInning",
+            "Opacity",
+            "+",
+            "2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "white_cover_lost",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "losing",
             "Opacity",
             "+",
             "2.5"
@@ -1259,21 +1451,62 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "Score",
-                "+",
-                "10"
+                "white_cover",
+                "True"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "PauseTimer"
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Option_b",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Option_c",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Option_d",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "",
-                "\"New scene timer\""
+                "right_wrong",
+                "False"
               ]
             },
             {
@@ -1281,32 +1514,190 @@
                 "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "white_cover",
+                "white_cover_lost",
                 "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Sendscore_button",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "View_lb_button",
-                ""
               ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": true,
+      "name": "Q2",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "right_wrong",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Question_holder",
+                "=",
+                "\"Question 2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+              },
+              "parameters": [
+                "Option_a",
+                "\"1\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+              },
+              "parameters": [
+                "Option_b",
+                "\"-1\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+              },
+              "parameters": [
+                "Option_c",
+                "\"0\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+              },
+              "parameters": [
+                "Option_d",
+                "\"0.5\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "right_wrong",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Option_b",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "right_wrong",
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::Value"
+          },
+          "parameters": [
+            "WInning",
+            "Opacity",
+            "!=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Sendscore_button",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "View_lb_button",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::Value"
+          },
+          "parameters": [
+            "losing",
+            "Opacity",
+            "!=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Main_menu",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1367,32 +1758,22 @@
       "conditions": [
         {
           "type": {
-            "value": "OpacityCapability::OpacityBehavior::Value"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "WInning",
-            "Opacity",
-            "=",
-            "255"
+            "Main_menu",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "Scene"
           },
           "parameters": [
-            "Sendscore_button",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "View_lb_button",
+            "",
+            "\"Levels\"",
             ""
           ]
         }
@@ -1453,9 +1834,41 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "cover",
+      "name": "winning",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "lost",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

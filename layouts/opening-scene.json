@@ -4556,7 +4556,7 @@
       "isLocked": false,
       "name": "Transition",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

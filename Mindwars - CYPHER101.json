@@ -2813,34 +2813,38 @@
         "name": "Transparent Button With White Blue Border_Idle.png2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/passage_img_1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\passage_img_1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/passage_img_2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\passage_img_2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/passage_img_3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\passage_img_3.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Time_holder",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Time taken: ",
-      "font": "resources\\CourierPrime-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    }
-  ],
+  "objects": [],
   "objectsGroups": [],
   "variables": [
     {
@@ -2851,9 +2855,27 @@
     },
     {
       "folded": true,
-      "name": "Time taken",
-      "type": "string",
-      "value": ""
+      "name": "Time",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "right_wrong",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "white_cover",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

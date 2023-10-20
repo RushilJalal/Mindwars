@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.37687720367508715,
     "windowMask": false
   },
   "objectsGroups": [
@@ -33,6 +33,20 @@
         },
         {
           "name": "Passage3"
+        }
+      ]
+    },
+    {
+      "name": "Passage_images",
+      "objects": [
+        {
+          "name": "Passage_img1"
+        },
+        {
+          "name": "passage_img2"
+        },
+        {
+          "name": "passage_img3"
         }
       ]
     }
@@ -171,36 +185,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Score_holder",
-      "persistentUuid": "d1698c38-4b4c-491f-b781-4c8543c8e7bb",
-      "width": 0,
-      "x": 51,
-      "y": 993,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Time_holder",
-      "persistentUuid": "0d348e12-197c-4813-a477-dfbaaab8ea8e",
-      "width": 0,
-      "x": 1422,
-      "y": 998,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "enter_tostart",
       "persistentUuid": "791d998e-0de0-41db-9710-abcb0fa08d5d",
       "width": 0,
@@ -319,6 +303,83 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Time_holder",
+      "persistentUuid": "42002e44-4e21-487d-a7ed-dfb0fd718e82",
+      "width": 0,
+      "x": 770,
+      "y": 1004,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Passage_img1",
+      "persistentUuid": "3e7920a5-2bee-44c8-87f2-c2c116313d3e",
+      "width": 0,
+      "x": 447,
+      "y": 129,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "passage_img2",
+      "persistentUuid": "9739a876-b940-43c0-b9e0-7f038bb40a43",
+      "width": 0,
+      "x": 509,
+      "y": 163,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 726,
+      "layer": "",
+      "name": "passage_img3",
+      "persistentUuid": "1778535e-e1f9-4e73-a56b-924d66decfaf",
+      "width": 823,
+      "x": 553,
+      "y": 143,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1185,
+      "layer": "Transition",
+      "name": "whitecover",
+      "persistentUuid": "4b018252-9329-4857-ae56-59e50bebf648",
+      "width": 1998,
+      "x": -26,
+      "y": -36,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -338,6 +399,18 @@
       "assetStoreId": "",
       "height": 32,
       "name": "white",
+      "tags": "",
+      "texture": "New image7",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "whitecover",
       "tags": "",
       "texture": "New image7",
       "type": "TiledSpriteObject::TiledSprite",
@@ -564,28 +637,6 @@
         "b": 0,
         "g": 0,
         "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score_holder",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Score: 0",
-      "font": "resources\\CourierPrime-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
       }
     },
     {
@@ -887,6 +938,211 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Time_holder",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time taken",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Passage_img1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\passage_img_1.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1003,
+                        "y": 0
+                      },
+                      {
+                        "x": 1003,
+                        "y": 745
+                      },
+                      {
+                        "x": 0,
+                        "y": 745
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "passage_img2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\passage_img_2.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 908,
+                        "y": 0
+                      },
+                      {
+                        "x": 908,
+                        "y": 692
+                      },
+                      {
+                        "x": 0,
+                        "y": 692
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "passage_img3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\passage_img_3.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 674,
+                        "y": 0
+                      },
+                      {
+                        "x": 674,
+                        "y": 618
+                      },
+                      {
+                        "x": 0,
+                        "y": 618
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -951,14 +1207,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "Time_holder"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Button1"
           ]
         },
@@ -984,6 +1232,39 @@
           },
           "parameters": [
             "TransparentButtonWithWhiteBlueBorder"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Time_holder"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Passage_images"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "whitecover",
+            "Opacity",
+            "-",
+            "1.5"
           ]
         }
       ]
@@ -1011,7 +1292,7 @@
           "parameters": [
             "Time_holder",
             "=",
-            "\"Time taken: \"+ToString(TimerElapsedTime(\"Main Timer\"))"
+            "\"Time taken: \" + SubStr(ToString(TimerElapsedTime(\"Main Timer\")),0,4)"
           ]
         }
       ]
@@ -1052,16 +1333,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "Time_holder",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Passage",
+            "Passage_img1",
             ""
           ]
         },
@@ -1098,6 +1370,15 @@
           },
           "parameters": [
             "TransparentButtonWithWhiteBlueBorder",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Time_holder",
             ""
           ]
         }
@@ -1134,7 +1415,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Passages"
+            "Passage_images"
           ]
         },
         {
@@ -1142,7 +1423,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "Passage",
+            "Passage_img1",
             ""
           ]
         }
@@ -1167,7 +1448,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Passages"
+            "Passage_images"
           ]
         },
         {
@@ -1175,7 +1456,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "Passage2",
+            "passage_img2",
             ""
           ]
         }
@@ -1200,7 +1481,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Passages"
+            "Passage_images"
           ]
         },
         {
@@ -1208,7 +1489,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "Passage3",
+            "passage_img3",
             ""
           ]
         }
@@ -1236,6 +1517,16 @@
             "",
             "\"Level 1 - questions\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Time",
+            "=",
+            "TimerElapsedTime(\"Main Timer\")"
           ]
         }
       ]
@@ -1297,7 +1588,7 @@
       "isLocked": false,
       "name": "Transition",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

@@ -1,0 +1,4606 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Opening_32scene",
+  "name": "Opening scene",
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.41943397827590617,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "everything",
+      "objects": [
+        {
+          "name": "Title_holder"
+        },
+        {
+          "name": "mystick"
+        },
+        {
+          "name": "Commander_textholder"
+        },
+        {
+          "name": "Cover"
+        },
+        {
+          "name": "Stick"
+        },
+        {
+          "name": "NameInput"
+        },
+        {
+          "name": "by_Cypher101"
+        },
+        {
+          "name": "NewPanelSprite_border"
+        },
+        {
+          "name": "Enter"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Transition",
+      "name": "Cover",
+      "persistentUuid": "8c4ccfba-2b75-48ae-ad55-af1ed41adb3b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Title_holder",
+      "persistentUuid": "2c00efe1-cba8-4add-9230-9ce71b13b62f",
+      "width": 0,
+      "x": 665,
+      "y": 200,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "mystick",
+      "persistentUuid": "6409d0d3-3fac-4b53-8935-b004937b92fa",
+      "width": 0,
+      "x": 260,
+      "y": 76,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 250,
+      "layer": "",
+      "name": "Stick",
+      "persistentUuid": "710d8e01-909f-4fc2-bcae-51913fb09b43",
+      "width": 250,
+      "x": 1176,
+      "y": 103,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "by_Cypher101",
+      "persistentUuid": "15c7a8e0-e86b-40d9-9443-559e77952de1",
+      "width": 0,
+      "x": 858,
+      "y": 366,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Commander_textholder",
+      "persistentUuid": "b4a2c707-4ec7-4654-b868-57955d25d53b",
+      "width": 0,
+      "x": 536,
+      "y": 617,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 68,
+      "layer": "",
+      "name": "NameInput",
+      "persistentUuid": "e2244111-f782-479e-a3fc-e86a18dd6b2e",
+      "width": 616,
+      "x": 639,
+      "y": 734,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 91,
+      "layer": "",
+      "name": "NewPanelSprite_border",
+      "persistentUuid": "38e790e0-d6c2-4819-a5d6-27d680d4ba36",
+      "width": 650,
+      "x": 628,
+      "y": 722,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Enter",
+      "persistentUuid": "ffe14932-8fb1-45f2-a91b-a6097162bcc9",
+      "width": 0,
+      "x": 664,
+      "y": 906,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Title_holder",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "MINDWARS",
+      "font": "resources\\BebasNeue-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 180,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mystick",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.03333333333333333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0020.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0021.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0023.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0024.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0025.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0026.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0027.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0028.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0037.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0038.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0039.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0040.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0041.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0042.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0043.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0044.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0045.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0046.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0047.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0048.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0049.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0050.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0051.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0052.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0053.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0054.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0055.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0056.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0057.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0058.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0059.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0060.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0061.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0062.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0063.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0064.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0065.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0066.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0067.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0068.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0069.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0070.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0071.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0072.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0073.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0074.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0075.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0076.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0077.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0078.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0079.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0080.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0081.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0082.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0083.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0084.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0085.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0086.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0087.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0088.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0089.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0090.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0091.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0092.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0093.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0094.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0095.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0096.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0097.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0098.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\idle my stick bg removed\\idle_0099.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 73
+                      },
+                      {
+                        "x": 374,
+                        "y": 279
+                      },
+                      {
+                        "x": 266,
+                        "y": 279
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Commander_textholder",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Commander, what shall we call you?",
+      "font": "resources\\CourierPrime-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Cover",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\background2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Stick",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile010",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.14285714285714285,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 693
+                      },
+                      {
+                        "x": 349,
+                        "y": 693
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 693
+                      },
+                      {
+                        "x": 349,
+                        "y": 693
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 693
+                      },
+                      {
+                        "x": 349,
+                        "y": 693
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 693
+                      },
+                      {
+                        "x": 349,
+                        "y": 693
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 693
+                      },
+                      {
+                        "x": 349,
+                        "y": 693
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\New character\\idle\\ezgif-4-0957e2c888-png-732x733-sprite-png\\tile015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 36
+                      },
+                      {
+                        "x": 542,
+                        "y": 693
+                      },
+                      {
+                        "x": 349,
+                        "y": 693
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NameInput",
+      "tags": "",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "",
+        "fontResourceName": "resources\\CourierPrime-Bold.ttf",
+        "fontSize": 50,
+        "inputType": "text",
+        "textColor": "255;255;255",
+        "fillColor": "0;0;0",
+        "fillOpacity": 255,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": false
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "by_Cypher101",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\by_CYPHER102.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 27
+                      },
+                      {
+                        "x": 0,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 4,
+      "height": 32,
+      "leftMargin": 4,
+      "name": "NewPanelSprite_border",
+      "rightMargin": 4,
+      "tags": "",
+      "texture": "resources\\New image2.png",
+      "tiled": false,
+      "topMargin": 4,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Enter",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect",
+          "doubleParameters": {
+            "bloomScale": 0.7,
+            "blur": 4,
+            "brightness": 0.7,
+            "padding": 0,
+            "quality": 7,
+            "threshold": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Press ENTER to continue",
+      "font": "resources\\CourierPrime-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Cover",
+            "Opacity",
+            "-",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "opening scene, position settings and music start",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Enter"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title_holder",
+                "=",
+                "SceneWindowWidth()/2-Title_holder.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title_holder",
+                "=",
+                "SceneWindowWidth()/2-by_Cypher101.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title_holder",
+                "=",
+                "SceneWindowWidth()/2-Commander_textholder.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title_holder",
+                "=",
+                "SceneWindowWidth()/2-NameInput.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title_holder",
+                "=",
+                "SceneWindowWidth()/2-NewPanelSprite_border.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title_holder",
+                "=",
+                "SceneWindowWidth()/2-Enter.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Stick",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "mystick",
+                "Title_holder",
+                "-Title_holder.Width()/2 - 60",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "Stick",
+                "Title_holder",
+                "Title_holder.Width()/2 + 70",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "NameInput",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Enter",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "Username",
+                "=",
+                "NameInput.Text()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "everything"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Story  starts - banishment\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 8042920,
+      "ambientLightColorR": 16,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Transition",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
+}

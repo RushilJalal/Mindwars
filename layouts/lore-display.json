@@ -87,6 +87,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 5,
+      "layer": "",
+      "name": "audio",
+      "persistentUuid": "a118a81c-94a9-43b8-ac8c-378d52accf09",
+      "width": 1656,
+      "x": 1,
+      "y": 1072,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -440,6 +456,21 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "audio",
+      "tags": "",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 0,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "resources\\audio.mp4"
+      }
     }
   ],
   "events": [
@@ -486,6 +517,14 @@
           },
           "parameters": [
             "Mindwarslore"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "audio"
           ]
         }
       ]
@@ -597,7 +636,7 @@
       "isLocked": false,
       "name": "White",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

@@ -2840,6 +2840,40 @@
         "name": "resources\\passage_img_3.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/StickmanPack-V0.2/StickmanPack/Full/Full.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\StickmanPack-V0.2\\StickmanPack\\Full\\Full.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/new stick/new stick_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\new stick\\new stick_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/resources_new stick_new stick_0000.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "resources\\new stick\\new stick_0000",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "resources/audio.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "resources\\audio.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

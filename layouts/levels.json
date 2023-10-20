@@ -18,11 +18,18 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3768772036750882,
+    "zoomFactor": 0.22916801610748821,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "reached",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -49,8 +56,8 @@
       "name": "mystick",
       "persistentUuid": "a0ddec72-bb89-44c5-9dae-2372e5b78ebf",
       "width": 308,
-      "x": 222,
-      "y": 101,
+      "x": 3721,
+      "y": 95,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -136,59 +143,62 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 245,
+      "height": 514,
+      "layer": "",
+      "name": "Stick2",
+      "persistentUuid": "1fe53713-94b0-44c5-9ad4-7d64cd700638",
+      "width": 696,
+      "x": 4918,
+      "y": 396,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "convo",
+      "persistentUuid": "2136c846-bd4b-4dc4-aad8-4d2ff3fbda2f",
+      "width": 1563,
+      "x": 4023,
+      "y": 891,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 130,
+      "layer": "",
+      "name": "Book",
+      "persistentUuid": "d06de5c1-0bb1-4460-895c-6a3860510f35",
+      "width": 125,
+      "x": 5115,
+      "y": 593,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 863,
       "layer": "",
       "name": "Border",
-      "persistentUuid": "eac7ab36-d4cc-4a9c-b905-5fe9940e8c20",
-      "width": 1033,
-      "x": 4446,
-      "y": 135,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "level1_text",
-      "persistentUuid": "1c3c848e-071b-441c-9440-f8192c937145",
-      "width": 0,
-      "x": 4789,
-      "y": 200,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "start_button",
-      "persistentUuid": "0b6cf8c3-4c00-47b0-8a0f-32780db52b8e",
-      "width": 0,
-      "x": 5229,
-      "y": 230,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "LEARN_button",
-      "persistentUuid": "c94f34cf-e9b3-48ce-b96c-4e860872b6a3",
-      "width": 0,
-      "x": 4517,
-      "y": 230,
-      "zOrder": 13,
+      "persistentUuid": "e3d129a5-b62b-43b8-9643-90184af8924f",
+      "width": 1306,
+      "x": 4094,
+      "y": -370,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1894,13 +1904,142 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "resources\\new stick\\new stick_0000",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "resources\\new stick\\new stick_0000",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 184,
+                        "y": 91
+                      },
+                      {
+                        "x": 294,
+                        "y": 91
+                      },
+                      {
+                        "x": 294,
+                        "y": 313
+                      },
+                      {
+                        "x": 184,
+                        "y": 313
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "convo",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "\"You have no idea what lies ahead\nYou are not prepared\nYou must train for it\nRead this...\"\nPress ENTER to continue",
+      "font": "resources\\CourierPrime-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "4ceffadb3d9ca4bc6f9acdca8fa58e64cb08e6886560aa19679b933a7f81b632",
+      "name": "Book",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Book Orange Trim_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1967,6 +2106,32 @@
             "=",
             "SceneWindowWidth()/2-MINDWARS.Width()/2"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "convo"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Border"
+          ]
+        },
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "convo",
+            "Text_AutoTyping",
+            ""
+          ]
         }
       ]
     },
@@ -2013,6 +2178,89 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "mystick",
+            ">=",
+            "4446"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IgnoreDefaultControls"
+          },
+          "parameters": [
+            "mystick",
+            "PlatformerObject",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "4900",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "convo",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::Resume"
+          },
+          "parameters": [
+            "convo",
+            "Text_AutoTyping",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Return"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Border",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -2041,6 +2289,38 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "study",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
@@ -2096,6 +2376,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
     }
   ]
 }

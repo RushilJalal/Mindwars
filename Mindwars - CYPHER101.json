@@ -3406,7 +3406,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0000.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0000.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0000.png",
         "smoothed": true,
         "userAdded": true
@@ -3415,7 +3415,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0001.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0001.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0001.png",
         "smoothed": true,
         "userAdded": true
@@ -3424,7 +3424,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0002.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0002.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0002.png",
         "smoothed": true,
         "userAdded": true
@@ -3433,7 +3433,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0003.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0003.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0003.png",
         "smoothed": true,
         "userAdded": true
@@ -3442,7 +3442,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0004.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0004.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0004.png",
         "smoothed": true,
         "userAdded": false
@@ -3451,7 +3451,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0005.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0005.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0005.png",
         "smoothed": true,
         "userAdded": true
@@ -3460,7 +3460,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0006.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0006.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0006.png",
         "smoothed": true,
         "userAdded": true
@@ -3469,7 +3469,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0007.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0007.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0007.png",
         "smoothed": true,
         "userAdded": false
@@ -3478,7 +3478,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0008.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0008.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0008.png",
         "smoothed": true,
         "userAdded": true
@@ -3487,7 +3487,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0009.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0009.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0009.png",
         "smoothed": true,
         "userAdded": false
@@ -3496,7 +3496,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0010.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0010.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0010.png",
         "smoothed": true,
         "userAdded": true
@@ -3505,7 +3505,7 @@
         "alwaysLoaded": false,
         "file": "resources/pistol[2]/pistol[2]_0011.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/pistol[2]/pistol[2]_0011.png\",\"extension\":\".png\"}",
         "name": "resources\\pistol[2]\\pistol[2]_0011.png",
         "smoothed": true,
         "userAdded": true
@@ -4196,6 +4196,1185 @@
         "name": "resources\\hurt[1]\\hurt[1]_0020.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead23",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol runman[1]/pistol runman[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol runman[1]\\pistol runman[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol runman[1]/pistol runman[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol runman[1]\\pistol runman[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol runman[1]/pistol runman[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol runman[1]\\pistol runman[1]_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/pistol runman[1]/pistol runman[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\pistol runman[1]\\pistol runman[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[1]/ak 47[1]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[1]\\ak 47[1]_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/ak 47[2]/ak 47[2]_0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\ak 47[2]\\ak 47[2]_0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_fire13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_fire13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead30",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead32",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead33",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead34",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead35",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead36",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead37",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead44",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead48",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead49",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead50",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image10",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

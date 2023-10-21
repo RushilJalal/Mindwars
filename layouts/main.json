@@ -11534,25 +11534,18 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "FileSystem::LoadStringFromFileSync"
+            "value": "SendAsyncRequest"
           },
           "parameters": [
+            "\"https://rushiljalal.github.io/access/structure.json\"",
+            "\"\"",
+            "\"GET\"",
+            "\"\"",
             "myjsonfilevariable",
-            "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"structure.json\"",
-            "",
             ""
           ]
         },
@@ -11563,16 +11556,6 @@
           "parameters": [
             "myjsonfilevariable",
             "data"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "test_text",
-            "=",
-            "data.0.Question2.quest"
           ]
         }
       ]
@@ -12101,6 +12084,16 @@
                 "and_so_it_begins",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Question1",
+                "=",
+                "data.0.Question1.quest"
+              ]
             }
           ]
         }
@@ -12291,7 +12284,7 @@
                   "parameters": [
                     "Answer1",
                     "=",
-                    "\"1\""
+                    "data.0.Question1.answ"
                   ]
                 }
               ],
@@ -12403,7 +12396,7 @@
                   "parameters": [
                     "Answer1",
                     "!=",
-                    "\"1\""
+                    "data.0.Question1.answ"
                   ]
                 },
                 {
@@ -12787,6 +12780,16 @@
                 "Question_2",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Question2",
+                "=",
+                "data.0.Question2.quest"
+              ]
             }
           ]
         },
@@ -12821,7 +12824,7 @@
                   "parameters": [
                     "Answer2",
                     "=",
-                    "\"-0.75\""
+                    "data.0.Question2.answ"
                   ]
                 }
               ],
@@ -12937,7 +12940,7 @@
                   "parameters": [
                     "Answer2",
                     "!=",
-                    "\"-0.75\""
+                    "data.0.Question2.answ"
                   ]
                 },
                 {

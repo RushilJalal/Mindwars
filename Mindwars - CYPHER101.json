@@ -74,6 +74,14 @@
         "userAdded": true
       },
       {
+        "disablePreload": false,
+        "file": "resources/structure.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "structure",
+        "userAdded": true
+      },
+      {
         "alwaysLoaded": false,
         "file": "resources/idle my stick bg removed/idle_0001.png",
         "kind": "image",
@@ -5417,6 +5425,11 @@
       "name": "white_cover_lost",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "myjsonparsed",
+      "type": "structure",
+      "children": []
     }
   ],
   "layouts": [

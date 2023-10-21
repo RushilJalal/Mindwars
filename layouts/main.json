@@ -99,38 +99,63 @@
   ],
   "variables": [
     {
-      "name": "Question1",
+      "name": "text_test_from_json",
       "type": "structure",
       "children": [
         {
-          "folded": true,
-          "name": "answ",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "folded": true,
-          "name": "quest",
-          "type": "string",
-          "value": ""
+          "name": "0",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Question1",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "answ",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "quest",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "Question2",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "answ",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "quest",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Question2",
+      "name": "data",
       "type": "structure",
-      "children": [
-        {
-          "name": "answ",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "name": "quest",
-          "type": "string",
-          "value": ""
-        }
-      ]
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "myjsonfilevariable",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -761,6 +786,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "test_text",
+      "persistentUuid": "7a359fe0-3289-4100-b459-a7ae1e2728d5",
+      "width": 0,
+      "x": 1015,
+      "y": 303,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -799,10 +839,10 @@
           "masks": 1
         },
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -1211,6 +1251,8 @@
           "Flippable": "Flippable"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -1223,9 +1265,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 500,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -11321,6 +11361,89 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "test_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "text",
+      "font": "resources\\CourierPrime-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "7cfcff2bade8747074155f7ff18d9183fd5019215266dc813aec562f9e7db55d",
+      "name": "Bullet2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bullet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "x": 10,
+                        "y": 7
+                      },
+                      {
+                        "x": 10,
+                        "y": 11
+                      },
+                      {
+                        "x": 5,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -11421,12 +11544,38 @@
           ]
         }
       ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "FileSystem::LoadStringFromFileSync"
+          },
+          "parameters": [
+            "myjsonfilevariable",
+            "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"structure.json\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "JSONToVariableStructure"
+          },
+          "parameters": [
+            "myjsonfilevariable",
+            "data"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "test_text",
+            "=",
+            "data.0.Question2.quest"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -12705,7 +12854,7 @@
                     "FireBullet",
                     "mystick.X(\"PointFire\")",
                     "mystick.Y(\"PointFire\")",
-                    "Bullet",
+                    "Bullet2",
                     "enemy_ak",
                     "1000",
                     ""
@@ -12716,10 +12865,10 @@
                     "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "Bullet",
+                    "Bullet2",
                     "Scale",
                     "=",
-                    "5"
+                    "20"
                   ]
                 },
                 {
@@ -12800,12 +12949,6 @@
                     "!=",
                     "\"\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -12814,7 +12957,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Try_again_1",
+                    "Try_again_2",
                     ""
                   ]
                 }
@@ -12857,7 +13000,7 @@
                         "FireBullet",
                         "enemy_ak.X(\"FirePoint\")",
                         "enemy_ak.Y(\"FirePoint\")",
-                        "Bullet",
+                        "Bullet2",
                         "mystick",
                         "1000",
                         ""
@@ -12868,10 +13011,10 @@
                         "value": "ScalableCapability::ScalableBehavior::SetValue"
                       },
                       "parameters": [
-                        "Bullet",
+                        "Bullet2",
                         "Scale",
                         "=",
-                        "5"
+                        "20"
                       ]
                     },
                     {
@@ -12901,7 +13044,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Bullet",
+                "Bullet2",
                 "mystick",
                 "",
                 "",
@@ -12915,7 +13058,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Bullet",
+                "Bullet2",
                 ""
               ]
             },
@@ -13013,7 +13156,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Bullet",
+            "Bullet2",
             "enemy_ak",
             "",
             "",
@@ -13027,7 +13170,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Bullet",
+            "Bullet2",
             ""
           ]
         },

@@ -4020,7 +4020,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0000.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0000.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0000.png",
         "smoothed": true,
         "userAdded": true
@@ -4029,7 +4029,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0001.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0001.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0001.png",
         "smoothed": true,
         "userAdded": false
@@ -4038,7 +4038,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0002.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0002.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0002.png",
         "smoothed": true,
         "userAdded": false
@@ -4047,7 +4047,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0003.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0003.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0003.png",
         "smoothed": true,
         "userAdded": false
@@ -4056,7 +4056,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0004.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0004.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0004.png",
         "smoothed": true,
         "userAdded": true
@@ -4065,7 +4065,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0005.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0005.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0005.png",
         "smoothed": true,
         "userAdded": false
@@ -4074,7 +4074,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0006.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0006.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0006.png",
         "smoothed": true,
         "userAdded": false
@@ -4092,7 +4092,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0008.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0008.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0008.png",
         "smoothed": true,
         "userAdded": false
@@ -4101,7 +4101,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0009.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0009.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0009.png",
         "smoothed": true,
         "userAdded": true
@@ -4110,7 +4110,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0010.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0010.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0010.png",
         "smoothed": true,
         "userAdded": false
@@ -4119,7 +4119,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0011.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0011.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0011.png",
         "smoothed": true,
         "userAdded": false
@@ -4128,7 +4128,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0012.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0012.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0012.png",
         "smoothed": true,
         "userAdded": false
@@ -4137,7 +4137,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0013.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0013.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0013.png",
         "smoothed": true,
         "userAdded": false
@@ -4146,7 +4146,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0014.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0014.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0014.png",
         "smoothed": true,
         "userAdded": false
@@ -4155,7 +4155,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0015.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0015.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0015.png",
         "smoothed": true,
         "userAdded": true
@@ -4164,7 +4164,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0016.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0016.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0016.png",
         "smoothed": true,
         "userAdded": true
@@ -4173,7 +4173,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0017.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0017.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0017.png",
         "smoothed": true,
         "userAdded": false
@@ -4182,7 +4182,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0018.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0018.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0018.png",
         "smoothed": true,
         "userAdded": false
@@ -4191,7 +4191,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0019.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0019.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0019.png",
         "smoothed": true,
         "userAdded": true
@@ -4200,7 +4200,7 @@
         "alwaysLoaded": false,
         "file": "resources/hurt[1]/hurt[1]_0020.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"resources/hurt[1]/hurt[1]_0020.png\",\"extension\":\".png\"}",
         "name": "resources\\hurt[1]\\hurt[1]_0020.png",
         "smoothed": true,
         "userAdded": true
@@ -4965,7 +4965,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt.png\"}",
         "name": "Hurt",
         "smoothed": true,
         "userAdded": true
@@ -4974,7 +4974,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt2.png\"}",
         "name": "Hurt2",
         "smoothed": true,
         "userAdded": true
@@ -4983,7 +4983,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt3.png\"}",
         "name": "Hurt3",
         "smoothed": true,
         "userAdded": true
@@ -4992,7 +4992,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt4.png\"}",
         "name": "Hurt4",
         "smoothed": true,
         "userAdded": true
@@ -5001,7 +5001,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt5.png\"}",
         "name": "Hurt5",
         "smoothed": true,
         "userAdded": true
@@ -5010,7 +5010,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt6.png\"}",
         "name": "Hurt6",
         "smoothed": true,
         "userAdded": true
@@ -5019,7 +5019,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt7.png\"}",
         "name": "Hurt7",
         "smoothed": true,
         "userAdded": true
@@ -5028,7 +5028,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt8.png\"}",
         "name": "Hurt8",
         "smoothed": true,
         "userAdded": true
@@ -5037,7 +5037,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt9.png\"}",
         "name": "Hurt9",
         "smoothed": true,
         "userAdded": true
@@ -5046,7 +5046,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt10.png\"}",
         "name": "Hurt10",
         "smoothed": true,
         "userAdded": true
@@ -5055,7 +5055,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt11.png\"}",
         "name": "Hurt11",
         "smoothed": true,
         "userAdded": true
@@ -5064,7 +5064,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt12.png\"}",
         "name": "Hurt12",
         "smoothed": true,
         "userAdded": true
@@ -5073,7 +5073,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt13.png\"}",
         "name": "Hurt13",
         "smoothed": true,
         "userAdded": true
@@ -5082,7 +5082,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt14.png\"}",
         "name": "Hurt14",
         "smoothed": true,
         "userAdded": true
@@ -5091,7 +5091,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt15.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt15.png\"}",
         "name": "Hurt15",
         "smoothed": true,
         "userAdded": true
@@ -5100,7 +5100,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt16.png\"}",
         "name": "Hurt16",
         "smoothed": true,
         "userAdded": true
@@ -5109,7 +5109,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt17.png\"}",
         "name": "Hurt17",
         "smoothed": true,
         "userAdded": true
@@ -5118,7 +5118,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt18.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt18.png\"}",
         "name": "Hurt18",
         "smoothed": true,
         "userAdded": true
@@ -5127,7 +5127,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt19.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt19.png\"}",
         "name": "Hurt19",
         "smoothed": true,
         "userAdded": true
@@ -5136,7 +5136,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt20.png\"}",
         "name": "Hurt20",
         "smoothed": true,
         "userAdded": true
@@ -5145,7 +5145,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt21.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt21.png\"}",
         "name": "Hurt21",
         "smoothed": true,
         "userAdded": true
@@ -5383,6 +5383,15 @@
         "name": "New image10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pistol_idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pistol_idle",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

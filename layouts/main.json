@@ -99,16 +99,38 @@
   ],
   "variables": [
     {
-      "folded": true,
-      "name": "fire",
-      "type": "boolean",
-      "value": false
+      "name": "Question1",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "answ",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "quest",
+          "type": "string",
+          "value": ""
+        }
+      ]
     },
     {
-      "folded": true,
-      "name": "Time",
-      "type": "number",
-      "value": 0
+      "name": "Question2",
+      "type": "structure",
+      "children": [
+        {
+          "name": "answ",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "quest",
+          "type": "string",
+          "value": ""
+        }
+      ]
     }
   ],
   "instances": [
@@ -11376,6 +11398,32 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "LOADING JSON"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
@@ -12658,7 +12706,7 @@
                     "mystick.X(\"PointFire\")",
                     "mystick.Y(\"PointFire\")",
                     "Bullet",
-                    "mystick",
+                    "enemy_ak",
                     "1000",
                     ""
                   ]
@@ -12717,16 +12765,6 @@
                   "parameters": [
                     "",
                     "\"Main Timer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Time",
-                    "=",
-                    "TimerElapsedTime(\"Main Timer\")"
                   ]
                 },
                 {
@@ -13028,7 +13066,7 @@
           "parameters": [
             "",
             "\"5d203651-f8ab-47a2-b73e-6efe53ccdb48\"",
-            "GlobalVariable(Time)",
+            "TimerElapsedTime(\"Main Timer\")",
             "GlobalVariableString(Username)"
           ]
         }

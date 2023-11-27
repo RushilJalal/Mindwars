@@ -1,2 +1,2 @@
 # Mindwars
-### An educational game created on GDevelop for M# 23 Hackathon
+### An educational game made using GDevelop for M# 23 Hackathon
